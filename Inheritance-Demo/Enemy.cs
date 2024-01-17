@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Demo
 {
-    internal class Enemy : GameObject
+    internal class Enemy : Entity
     {
        
 

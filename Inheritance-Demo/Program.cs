@@ -17,7 +17,8 @@ namespace Inheritance_Demo
             Player player = new Player();
             Enemy slime = new Enemy();
             Item sword = new Item();
-           
+
+            
 
             player.position.x = 0;
             player.position.y = 0;

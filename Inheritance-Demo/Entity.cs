@@ -8,8 +8,17 @@ namespace Inheritance_Demo
 {
     internal class Entity : GameObject
     {
-        // public Healthsystem healthsystem
+        public HealthSystem healthSystem;
         
+
+        public Entity() 
+        {
+
+            Console.WriteLine("Entity class constructed");
+            // instantiate health system
+            healthSystem = new HealthSystem();
+
+        }
 
     }
 }

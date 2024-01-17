@@ -9,5 +9,6 @@ namespace Inheritance_Demo
     internal class GameObject
     {
         public Point2D position;
+
     }
 }

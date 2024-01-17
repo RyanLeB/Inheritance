@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Inheritance_Demo
 {
-    internal class Player : GameObject // reads: Player inherits GameObject
+    internal class Player : Entity // reads: Player inherits GameObject
     {
         
 
@@ -15,6 +15,14 @@ namespace Inheritance_Demo
         public int level;
         public int score;
 
+        public Player()
+        {
+
+            Console.WriteLine("Player class constructed");
+            // instantiate health system
+            healthSystem = new HealthSystem();
+
+        }
         // ...
         // ...
         // ...
